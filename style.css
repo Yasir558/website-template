@@ -1,0 +1,104 @@
+/* *{
+
+    /* padding:0 ;
+    margin: 0;
+    box-sizing: border-box; */
+
+/* } */ */
+.N{
+    height: 100vh;
+    width: 100%;
+    background: none;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+.logo{
+    color: black;
+    font-size: 28 px;
+    
+
+
+}
+.logo>b{
+    color: red;
+    font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block ;
+    padding: 10px 20px ;
+
+}
+
+nav ul li a{
+    color: gray;
+text-decoration: none;
+font-weight: bold;
+
+
+}
+
+nav ul li a:hover{
+color: black;
+text-decoration: underline;
+transition: .3s;
+}
+
+.B{
+ color: white;
+ background-color: red ;
+ border-radius: 20px;
+ padding: 12px 30px;
+ border: none;
+ font-size: 12px;
+}
+.B:hover{
+    color: black;
+    background-color:gray;
+}
+
+.content{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:lightgrey;
+    position:relative;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.textbox{
+
+    padding-left: 80px;
+    
+}
+.O{
+
+    color: white;
+    background-color: red ;
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: none;
+    font-size: 12px;}
+
+
+    .W{
+
+        background: transparent;
+        color: black;
+        border: none;
+
+    }
+
+    
